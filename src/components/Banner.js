@@ -63,7 +63,7 @@ export const Banner = () => {
                   </a>
                   <button onClick={() => {
                               const link = document.createElement('a');
-                              link.href = '/Mohammed Arif Resume.pdf';
+                              link.href = './assests/Mohammed Arif Resume.pdf'; // Path to your PDF file
                               link.download = 'Mohammed Arif Resume.pdf';
                               document.body.appendChild(link);
                               link.click();
